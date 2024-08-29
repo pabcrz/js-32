@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./index.js"></script>
+  <style>
+    .btn{
+      background: black;
+      color: white;
+      border-radius: 8px;
+      border: dashed 2px rgba(255, 0, 0, 0.644);
+      display: inline-block;
+      min-width: 200px;
+      margin: 2px;
+      text-align: center;
+      padding: 8px;
+    }
+    .padre {
+      border: solid red;
+    }
+    .hijo { 
+      border: solid blue;
+    }
+  </style>
+</head>
+<body>
+  Padre body
+  <p class="hijo">Hijo del body</p>
+  <div class="padre">
+    Padre Div
+    <p class="hijo">Hijo div</p>
+  </div>
+</body>
+</html>

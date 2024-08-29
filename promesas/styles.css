@@ -1,0 +1,57 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #264182;
+}
+
+#container {
+  max-width: 100vh;
+  padding: 10px;
+  color: #deebfb;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 8px;
+  max-width: 40%;
+  padding: 20px 15px;
+  background-color: #1c2a4fbd;
+  margin: 10px 10px;
+}
+
+.title,
+.body {
+  list-style: none;
+}
+
+.title {
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+.data {
+  margin-top: 10px;
+  border: solid 2px #264182;
+  border-radius: 8px;
+  padding: 10px;
+  width: fit-content;
+}
+
+.itemID,
+.userID {
+  font-weight: bold;
+  font-size: small;
+  list-style: none;
+}
+
+@media (max-width: 580px) {
+  .card {
+    min-width: 80%;
+  }
+}
